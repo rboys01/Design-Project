@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    height: 100px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10001;
+}
+nav{
+    position: fixed;
+    margin: 0 auto;
+    width: 100%;
+    top: 101px;
+    z-index: 1000;
+}
+footer {
+    position: fixed;
+    bottom: 10px;
+    background-color: rgb(187, 93, 190);
+}
+
+.navie{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto; 
+    background-color: rgb(187, 93, 190);
+}
+ul li{
+    float: left; 
+    gap: 100px;
+}
+ul li a {
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    gap: 100px;
+}
+.navbar :hover {
+    background-color: rgb(233, 125, 218);
+}
+
+.fixed {
+    position:fixed;
+    width: 100%;
+    top: 101px;
+}
+
+.sentence {
+    bottom: 700px;
+}
+.table {
+    margin-left: auto;
+    margin-right: auto;
+}
+.quest {
+    text-decoration: underline;
+    color: rgb(70, 11, 70);
+    font-weight: bold;
+}
+form {
+    text-align: center;
+}
+.survey {
+    text-align: center;
+    color: rgb(70, 11, 70);
+}
+.bold {
+    font-weight: bold;
+}
+.equip {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
+}
+.subtitle {
+    font-weight: bold;
+}
+.para {
+    position: relative;
+    left: 10px;
+}
+.centerpls {
+    text-align: center;
+}
+.photoo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.done {
+    text-align: center;
+}
+ 
